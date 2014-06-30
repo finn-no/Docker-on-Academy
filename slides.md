@@ -178,7 +178,7 @@ Og så kan vi pushe litt
 Note:
 Da kommer vi over på siste bit av hva Docker består av. Dockerfile er en
 lettvekts byggdefinisjon. Den må ikke brukes; det er også mulig å bygge
-opp et image gjennom APIet, som f.eks. Packer gjør
+opp et image gjennom APIet, som f.eks. Packer gjør.
 
 ----
 
@@ -228,7 +228,7 @@ git push dokku master
 open http://nodejs.dokku.me:8080
 
 Og til slutt skal vi kjøre opp flysøket i Docker med fig, et Docker-overbygg
-som gir en bedre mulighet for å starte opp containere som hører sammen
+som gir en bedre mulighet for å starte opp containere som hører sammen.
 
 flight > fig
 fig up -d
@@ -244,5 +244,5 @@ basert på DNS for å finne hvor de ulike tjenestene ligger.
 # Questions
 
 Note:
-For de som er interessert i flere demoer kan ta kontakt med meg etterpå.
+De som er interessert i flere demoer kan ta kontakt med meg etterpå.
 
